@@ -3,10 +3,27 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: "Roboto";
 }
 
 /* HEADER */
+.Header {
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+}
 
+.Logo {
+    display: flex;
+    padding: 20px;
+    background-color: aqua;
+}
+
+.Links {
+    display: flex;
+    padding: 20px;
+    background-color: green;
+}
 
 /* MAIN CONTAINER */
 
