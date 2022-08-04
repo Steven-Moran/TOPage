@@ -3,26 +3,33 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
 }
 
 /* HEADER */
 .Header {
     display: flex;
     justify-content: space-between;
-    background-color: blueviolet;
+    background-color: #1F2937;
 }
 
 .Logo {
     display: flex;
-    padding: 20px;
-    background-color: aqua;
+    align-items: center;
+    padding: 12px 0px;
+    margin-left: 150px;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .Links {
     display: flex;
-    padding: 20px;
-    background-color: green;
+    align-items: center;
+    padding: 12px 0px;
+    gap: 20px;
+    margin-right: 150px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 /* MAIN CONTAINER */
