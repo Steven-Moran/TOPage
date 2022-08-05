@@ -138,8 +138,26 @@ body {
 /* QUOTE */
 .Quote {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 350px;
     background-color: #E5E7EB;
+}
+
+.quote1 {
+    display: flex;
+    margin: 0px;
+    width: 800px;
+    font-size: 36px;
+}
+
+.author {
+    display: flex;
+    justify-content: end;
+    margin: 0px;
+    width: 800px;
+    font-size: 18px;
 }
 
 
