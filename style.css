@@ -177,13 +177,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 300px;
-    background-color: purple;
 }
 
 .Button2 {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     padding: 40px 150px;
     gap: 150px;
     border: 0px;
@@ -223,4 +221,13 @@ body {
 
 /* FOOTER */
 
-
+.Footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin-top: auto;
+    font-weight: 100;
+    color: #E5E7EB;
+    background-color: #1F2937;
+}
