@@ -136,6 +136,11 @@ body {
 }
 
 /* QUOTE */
+.Quote {
+    display: flex;
+    height: 350px;
+    background-color: #E5E7EB;
+}
 
 
 /* BUTTON CONTAINER */
