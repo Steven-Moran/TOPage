@@ -87,7 +87,53 @@ body {
 }
 
 /* INFORMATION */
+.Content {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+}
 
+.Titlecontent {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 15px 0px;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.Images {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    height: 200px;
+}
+
+.Image1,
+.Image2,
+.Image3,
+.Image4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    gap: 5px;
+}
+
+.ImageC {
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+}
+
+.ParaC {
+    margin: 0px;
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937;
+}
 
 /* QUOTE */
 
